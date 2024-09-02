@@ -1,5 +1,5 @@
 {
-    "name": "sacha/privatcoollib",
+    "name": "nazarenko/privatcoollib",
     "description": "Convert currency based on SberBank API",
     "type": "libraly",
     "autoload": {
