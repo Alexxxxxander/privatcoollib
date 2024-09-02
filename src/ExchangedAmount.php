@@ -46,8 +46,8 @@ class ExchangedAmount
             $rate = (float) str_replace(',', '.', $valute->Value);
             $nominal = (int) $valute->Nominal;
 
-            if ($charCode === 'USD' || $charCode === 'EUR' || $charCode === 'RUB') {
-                $rates[$charCode]['UAH'] = [
+            if ($charCode === $this->from ) {
+                $rates[$charCode][$this->to] = [
                     'buy' => $rate / $nominal
                 ];
             }
