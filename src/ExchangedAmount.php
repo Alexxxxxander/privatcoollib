@@ -1,5 +1,4 @@
 <?php
-
 use GuzzleHttp\Client;
 
 class ExchangedAmount
@@ -9,7 +8,7 @@ class ExchangedAmount
     private $amount;
     private $client;
 
-    public function __construct(string $from, string $to, float $amount)
+    public function __construct( $from,  $to,  $amount)
     {
         $this->from = $from;
         $this->to = $to;

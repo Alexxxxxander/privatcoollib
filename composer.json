@@ -15,6 +15,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "ext-simplexml": "*"
+        "ext-simplexml": "*",
+        "guzzlehttp/guzzle": "^7.9"
     }
 }
