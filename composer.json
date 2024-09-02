@@ -1,2 +1,20 @@
 {
+    "name": "sacha/privatcoollib",
+    "description": "Convert currency based on SberBank API",
+    "type": "libraly",
+    "autoload": {
+        "psr-4": {
+            "Privatcoollib\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AlexanderVetmanager",
+            "email": "sacha.naza@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-simplexml": "*"
+    }
 }
