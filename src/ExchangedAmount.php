@@ -1,4 +1,6 @@
 <?php
+namespace Privatcoollib;
+
 use GuzzleHttp\Client;
 
 class ExchangedAmount
@@ -14,7 +16,8 @@ class ExchangedAmount
         $this->to = $to;
         $this->amount = $amount;
         $this->client = new Client([
-            'base_uri' => 'https://www.cbr.ru'
+            'base_uri' => 'https://www.cbr.ru',
+            'verify' => false
         ]);
     }
 
